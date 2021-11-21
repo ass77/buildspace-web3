@@ -5,6 +5,7 @@ import './App.css';
 export default function App() {
 
   const wave = () => {
+    console.log('waved')
     
   }
   
@@ -13,11 +14,11 @@ export default function App() {
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        👋 Hello human!
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+          This will be a student's web3 communication tool to discuss whats going on with their code!
         </div>
 
         <button className="waveButton" onClick={wave}>
